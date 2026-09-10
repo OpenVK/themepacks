@@ -1,0 +1,11 @@
+id: vkdark
+version: "0.0.1.0"
+openvk_version: 0
+enabled: 1
+metadata:
+    name:
+        _: "VK Night"
+        en: "VK Night"
+        ru: "VK Night"
+    author: "Ash Defenders"
+    description: "Смесь нового и…"

@@ -1,0 +1,32 @@
+.page_header {
+    position:relative;
+    width:791px;
+    height:43px;
+    background-repeat:no-repeat;
+    background-position:0;
+    background:url(/themepack/dmtheme/1.0.0.0/resource/ovk_dm.png);
+}
+
+.home_button {
+    background: unset !important;
+}
+
+.header_navigation .link a {
+    color: #FBFBFB;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: #000 0px 0px 5px;
+}
+
+.button {
+    background: #88848f;
+}
+
+.page_yellowheader {
+    background: #c7c1d3;
+    border-color: #c7c1d3;
+}
+
+.ovk-diag-head {
+    background: #88848f;
+}

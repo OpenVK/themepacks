@@ -1,0 +1,11 @@
+id: vk2015dark
+version: "0.0.1.0"
+openvk_version: 0
+enabled: 0
+metadata:
+    name:
+        _: "VK 2015 Dark Theme"
+        en: "VK 2015 Dark Theme"
+        ru: "ВКонтакте 2015 Тёмная Тема"
+    author: "Ash Defenders"
+    description: "Тёмная тема, а дальше что?"

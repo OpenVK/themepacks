@@ -1,0 +1,11 @@
+id: vk2006beta
+version: "0.0.1.0"
+openvk_version: 0
+enabled: 1
+metadata:
+    name:
+        _: "VKontakte 2006 Beta [by Ash Defenders]"
+        en: "VKontakte 2006 Beta [by Ash Defenders]"
+        ru: "ВКонтакте 2006 Бета [by Ash Defenders]"
+    author: "Ash Defenders"
+    description: "Тема в стиле В Контакте 2006 года во время бета тестирования"

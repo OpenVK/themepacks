@@ -1,0 +1,11 @@
+id: vtlenu
+version: "0.0.1.0"
+openvk_version: 0
+enabled: 1
+metadata:
+    name:
+        _: "VTlenu [by Ash Defenders]"
+        en: "VTlenu [by Ash Defenders]"
+        ru: "Втлену [by Ash Defenders]"
+    author: "Ash Defenders"
+    description: "Тема Втлену для OpenVK"

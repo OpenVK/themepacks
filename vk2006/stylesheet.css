@@ -1,0 +1,106 @@
+@import "/themepack/vk2006/0.0.1.0/resource/vk2007style.css";
+
+
+.page_header {
+    background: url(/themepack/vk2006/0.0.1.0/resource/1.png) no-repeat;
+     background-position: 12px 2px;
+}
+
+.header_navigation .link {
+    font-size: 12px;
+    padding: 4px 4px 0 7px;
+    background: none;
+}
+
+.header_navigation .link a {
+    font-weight: normal;
+}
+
+.header_navigation {
+    margin-top: -4px;
+    margin-right: 11px;
+}
+
+.sidebar {
+    margin: 4px 0 0 17px;
+	width: 127px;
+}
+
+.page_yellowheader {
+    background-image: none;
+    font-size: 12px;
+    background-color: #F1EBCD;
+    border-right: solid 1px #d2bea7;
+    border-left: solid 1px #d2bea7;
+    border-bottom: solid 1px #D7CF9E;
+}
+.navigation .link {
+color:#2B587A;
+}
+.navigation .link:hover {
+    background: 
+#DAE1E8;
+border-top: 1px solid
+    #CAD1D9;
+}
+.tabs {
+    border-bottom: 1px solid 
+    #36638E;
+}
+#activetabs {
+    background: 
+    #36638E;
+}
+
+
+.sidebar {
+    margin: 4px 0 0 17px;
+    margin-top: -4px;
+}
+
+
+.page_body {
+    width: 632px;
+    float: right;
+    margin-right: 15px;
+    margin-top: -8px;
+    font-size: 11px;
+    text-align: left;
+}
+
+
+
+.header_navigation {
+    margin-top: -2px;
+    margin-right: 11px;
+}
+
+
+
+.navigation .edit-button {
+    background-color: #fff !important;
+    color: gray !important;
+    position: absolute;
+    right: 0;
+    height: 14px;
+    top: -1px;
+}
+
+
+.home_button {
+    position: absolute;
+    width: 150px;
+    text-indent: -999px;
+    height: 37px;
+}
+
+
+.psa-poster {
+    max-width: 95% /* qualified */ !important;
+    margin-top: 5px /* qualified */ !important;
+    margin-left: 4px /* qualified */ !important;
+}
+
+.ovk-diag-head {
+    background: #2b587a;
+}

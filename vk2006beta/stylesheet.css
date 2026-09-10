@@ -1,0 +1,196 @@
+.page_header {
+    background: url(/themepack/vk2006beta/0.0.1.0/resource/3.png) no-repeat; /*/themepack/vk2006beta/0.0.1.0/resource/1.png*/
+    margin-top: 3px;
+    margin-left: 12px;
+    height: 33px;
+}
+.header_navigation .link {
+    background: none;
+    font-size: 12px;
+}
+.header_navigation .link a {
+    font-weight: normal;
+    color: #e5f3ff;
+}
+.header_navigation {
+    margin-top: -17px;
+    margin-right: 15px;
+    height: 37px;
+}
+.page_body {
+    margin-top: -2px;
+}
+
+.page_header.search_expanded #search_box_fr {
+    height: unset;
+    width: 511px !important;
+    position: unset;
+    margin-left: unset;
+    margin-top: 13px;
+}
+
+.home_button {
+    background: unset !important;
+}
+
+#search_box_fr {
+    height: 22px;
+    width: 128px !important;
+    position: absolute;
+    margin-left: -764px;
+    margin-top: 44px;
+    /* background: url(https://i.imgur.com/8KtCFDd.gif) no-repeat 3px 4px;
+    background-color: #fff;
+    padding-left: 23px;
+    width: 120px;
+    background-position-y: 5px;
+    background-position-x: 5px; */
+}
+#search_box_fr input[type~="search"] {
+    width: 100%;
+}
+
+input[type~="search"][name~="query"] {
+    background: url(/themepack/vk2006beta/0.0.1.0/resource/2.png) no-repeat 3px 4px /* qualified */ !important;
+    background-position-y: 5px /* qualified */ !important;
+    background-position-x: 5px /* qualified */ !important;
+    padding-bottom: 4px /* qualified */ !important;
+    padding-left: 21px /* qualified */ !important;
+}
+input[type="search"], input[type~="search"], select {
+    border: 1px solid #d5d5d5;
+}
+.sidebar {
+    margin-top: 30px;
+    margin-left: 12px;
+    width: 128px;
+}
+.navigation .link {
+    display: block;
+    padding: 2px 3px 3px 3px;
+    text-decoration: none;
+    border-top: 1px solid #fff;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 11px;
+    text-align: left;
+    cursor: pointer;
+    background: none;
+    margin-bottom: 1px;
+}
+.page_yellowheader {
+    padding: 5px 10px 5px;
+    font-size: 12px;
+    background: none;
+    background-color: #7590ae;
+    border-right: solid 1px #8a96a4;
+    border-left: solid 1px #8a96a4;
+    border-bottom: solid 1px #8a96a4;
+    overflow: hidden;
+    color: #fff;
+}
+.page_yellowheader span {
+    color: #a7bcd1;
+}
+.page_yellowheader a {
+    color: #fff;
+}
+.home_button {
+    width: 250px;
+    height: 33px;
+}
+.home_button:hover {
+    width: 250px;
+    height: 33px;
+}
+.home_button:active {
+    width: 250px;
+    height: 33px;
+}
+.completeness-gauge {
+    border-top: 1px solid #c4c4c4;
+}
+#faqhead {
+    background: #7590ae;
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-bottom: 0px;
+    color: #fff;
+}
+#faqcontent {
+    background: #fafafa;
+    margin: 0px 5px 10px 5px;
+    padding: 5px 5px 5px 10px;
+    border: 1px solid #ddd;
+    border-top: 0;
+}
+
+.header_navigation .link a {
+    color: #DAE1E8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content_title_expanded {
+    border-top: #45688e solid 1px;
+    background-color: #dae2e8;
+    color: #45688e;
+}
+.navigation .link {
+color:#2B587A;
+}
+.navigation .link:hover {
+    background: 
+#DAE1E8;
+border-top: 1px solid
+    #CAD1D9;
+}
+.tabs {
+    border-bottom: 1px solid 
+    #36638E;
+}
+#activetabs {
+    background: 
+    #36638E;
+}
+.button {
+    border-radius: 2px;
+    border: #2B587A;
+    font-size: 11px;
+    outline: none;
+    white-space: nowrap;
+    background: #2B587A;
+    background-position: 0px -16px;
+    color: #fff;
+    padding: 4px 8px 4px;
+    text-shadow: 0 1px 0 #2B587A;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navigation_footer .link:hover {
+
+    border-top: 1px solid #CAD1D9;
+    color: #2B587A;
+    background: #DAE1E8;
+}
+.navigation_footer .link {
+    color: #2B587A;
+}
+.button:hover {
+    color: #DAE1E8;
+    text-decoration: none;
+}
+.page_yellowheader > img.name-checkmark {
+    margin-bottom: -1px;
+    content: url(https://i.imgur.com/CoJ1KqF.png);
+}
+.content_title_expanded {
+    background-image: url(/themepack/vk2006beta/0.0.1.0/resource/4.gif);
+}
+
+.ovk-diag-head {
+    background-color: #2b587a;
+}

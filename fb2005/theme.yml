@@ -1,0 +1,11 @@
+id: fb2005
+version: "0.0.1.0"
+openvk_version: 0
+enabled: 1
+metadata:
+    name:
+        _: "TheFacebook 2005"
+        en: "TheFacebook 2005 [By Ash Defenders]"
+        ru: "TheFacebook 2005 [By Ash Defenders]"
+    author: "Ash Defenders"
+    description: "Тема в стиле The Facebook 2005 года"

@@ -1,0 +1,11 @@
+id: vs
+version: "0.0.1.0"
+openvk_version: 0
+enabled: 1
+metadata:
+    name:
+        _: "ВСоюзе [by Ash Defenders]"
+        en: "InUssr [by Ash Defenders]"
+        ru: "ВСоюзе [by Ash Defenders]"
+    author: "Ash Defenders"
+    description: "Тема ВСоюзе 1 апреля"

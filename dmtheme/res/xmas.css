@@ -1,0 +1,15 @@
+.page_header{
+	position:relative;
+	width:791px;
+	height:43px;
+	background-repeat:no-repeat;
+	background-position:0;
+	background:url(/themepack/dmtheme/1.0.0.0/resource/ovk_dm_xmas.png)
+};
+
+.header_navigation .link a {
+    color: #ffefef;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}

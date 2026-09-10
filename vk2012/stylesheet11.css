@@ -1,0 +1,119 @@
+
+@import "/themepack/vk2012/0.0.1.0/resource/vkstyle.css";
+
+.page_header {
+    background: url(https://i.imgur.com/4CtLrWk.png) /* /themepack/vk2012/0.0.1.0/resource/9.png */ /* VK https://i.imgur.com/viNiBFh.png */ no-repeat;
+}
+/*.home_button:active {
+    background: url(https://i.imgur.com/AhZnakg.png)  https://i.imgur.com/dInnXR3.png  /themepack/vk2012/0.0.1.0/resource/10.png  no-repeat;
+}
+
+.home_button {
+    background: url(https://i.imgur.com/6X0o7qZ.png) no-repeat;
+}*/
+
+/* .home_button {
+    background: url(https://i.imgur.com/bEaPOYx.png) no-repeat;
+} */
+.home_button:active {
+    background: url(https://i.imgur.com/kZ5pEoW.png) /* https://i.imgur.com/bBDNhKX.png */ no-repeat;
+    background-position-y: 1px;
+}
+
+.header_navigation .link {
+    color: #E8EFF7;
+    text-shadow: 0px 1px 0px #416389;
+}
+.button {
+    border-top: 1px solid #517295;
+    border-bottom: 1px solid #4e6f93;
+    border-left: 1px solid #4e6f93;
+    border-right: 1px solid #4e6f93;
+    background: url(/themepack/vk2012/0.0.1.0/resource/11.png) repeat-x;
+    height: 25px;
+    border-radius: 2px;
+}
+input[class=button] {
+    padding-top: 5px;
+    padding-bottom: 4px;
+    text-shadow: 0 1px 0 #45688E;
+}
+.button:hover {
+    border-top: 1px solid #517295;
+    border-bottom: 1px solid #4e6f93;
+    border-left: 1px solid #4e6f93;
+    border-right: 1px solid #4e6f93;
+    background: url(/themepack/vk2012/0.0.1.0/resource/12.png) repeat-x;
+    height: 25px;
+}
+input[class=button]:hover {
+    padding-top: 5px;
+    padding-bottom: 4px;
+    text-shadow: 0 1px 0 #45688E;
+}
+.button:active {
+    border-top: 1px solid #517295;
+    border-bottom: 1px solid #4e6f93;
+    border-left: 1px solid #4e6f93;
+    border-right: 1px solid #4e6f93;
+    background: url(/themepack/vk2012/0.0.1.0/resource/13.png) repeat-x;
+    height: 25px;
+}
+input[class=button]:active {
+    padding-top: 5px;
+    padding-bottom: 4px;
+    text-shadow: 0 1px 0 #45688E;
+}
+.messenger-app--input---messagebox .button {
+    border-top: 1px solid #517295;
+    border-bottom: 1px solid #4e6f93;
+    border-left: 1px solid #4e6f93;
+    border-right: 1px solid #4e6f93;
+    background: url(/themepack/vk2012/0.0.1.0/resource/14.png) repeat-x;
+    height: 25px;
+    border-radius: 2px;
+}
+
+.messenger-app--input---messagebox .button:hover {
+    border-top: 1px solid #517295;
+    border-bottom: 1px solid #4e6f93;
+    border-left: 1px solid #4e6f93;
+    border-right: 1px solid #4e6f93;
+    background: url(/themepack/vk2012/0.0.1.0/resource/15.png) repeat-x;
+    height: 25px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    text-shadow: 0 1px 0 #45688E;
+}
+.messenger-app--input---messagebox .button:active {
+    border-top: 1px solid #517295;
+    border-bottom: 1px solid #4e6f93;
+    border-left: 1px solid #4e6f93;
+    border-right: 1px solid #4e6f93;
+    background: url(/themepack/vk2012/0.0.1.0/resource/16.png) repeat-x;
+    height: 25px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    text-shadow: 0 1px 0 #45688E;
+    
+}
+.page_yellowheader {
+    padding: 4px 10px 5px;
+    font-weight: bold;
+    background: url(/themepack/vk2012/0.0.1.0/resource/18.png) repeat-x;
+    background-color: #e9edf1;
+    border-right: solid 1px #e9edf1;
+    border-left: solid 1px #e9edf1;
+    border-bottom: solid 1px #e9edf1;
+    color: #2B587A;
+}
+.content_title_expanded, .content_title_unexpanded {
+    color: #2B587A;
+}
+.messenger-app--messages---message .ava, .messenger-app--input > .ava {
+    border-radius: 2px;
+}
+.sidebar {
+    /* margin-left: 5px; */
+    width: 136px;
+}

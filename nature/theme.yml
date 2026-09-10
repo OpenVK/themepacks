@@ -1,0 +1,12 @@
+id: nature
+version: "0.0.1.0"
+openvk_version: 0
+enabled: 1
+
+metadata:
+    name:
+        _: "Nature"
+        en: "Nature"
+        ru: "Природа"
+    author: "Daniel Myslivets"
+    description: "Тема для OpenVK приятного цветового тона в сочетании с природной фоновой составляющей"

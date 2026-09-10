@@ -1,0 +1,11 @@
+id: vriska
+version: "0.0.1.0"
+openvk_version: 0
+enabled: 1
+metadata:
+    name:
+        _: "Vriska Serket"
+        en: "Vriska Serket"
+        ru: "Vriska Serket"
+    author: "Ash Defenders feat. Jill"
+    description: "Переделанная тема vriska.ru"

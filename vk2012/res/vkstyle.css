@@ -1,0 +1,422 @@
+.page_header {
+    position: relative;
+    width: 791px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: 0;
+    background: url(/themepack/vk2012/0.0.1.0/resource/1.png);
+    /* https://i.imgur.com/NUWhKyn.png */
+}
+
+/* меню */
+
+.header_navigation .link {
+    background: unset;
+}
+
+.navigation .link {
+
+    display: block;
+    padding: 3px 3px 4px 6px;
+    text-decoration: none;
+    border-top: none;
+    color: #285473;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 11px;
+    text-align: left;
+    cursor: pointer;
+    background: none;
+    margin-bottom: 1px;
+    border-radius: 2px;
+
+
+}
+
+.navigation .edit-button {
+    /* position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    color: grey; */
+    display: none;
+}
+
+.navigation .link:hover {
+    background-color: #e2e8ee;
+    border-top: none;
+}
+
+
+/* page crap */
+
+img.name-checkmark {
+    margin-bottom: -1px;
+    content: url(/themepack/vk2012/0.0.1.0/resource/check2.png);
+}
+
+.post-author img.name-checkmark {
+    content: url(/themepack/vk2012/0.0.1.0/resource/check2.png);
+    margin-left: 0px;
+    margin-bottom: 0.3px;
+    width: 10px;
+}
+
+
+
+#profile_link, .profile_link {
+    border-bottom: 1px solid #fff;
+    font-size: 11px;
+    color: #2b587a;
+    text-align: left;
+    cursor: pointer;
+}
+
+.button {
+    border-radius: 2px;
+    border: #597da3;
+    font-size: 11px;
+    outline: none;
+    white-space: nowrap;
+    background: #597da3;
+    background-position: 0px -16px;
+    color: #fff;
+    padding: 4px 8px 4px;
+    text-shadow: 0 1px 0 #597da3;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+input[class=button] {
+    padding: 5px 7px 4px;
+        padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+input[class=button]:hover {
+    background: #6d8cb0;
+}
+
+input[class=button]:active {
+    background: #5c7ca1;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+.checkbox {
+  background-image: url("data:image/gif;base64,R0lGODlhDwA4AKIHANrh6P///8DK1a22wF+DpbfAy9/l6v///yH5BAEAAAcALAAAAAAPADgAAAOzKLrMJyHKGcWjOFiY5+7eBVbi+I1aCZ6m2rGrm21NrTx2LWMEwYE93yho+PF6gmKHyCJIiEVRMABNcQzBnsFAumK13K5kS9iGjNuwBPbC5RyDuHw+PwwA+LweP7Dv/wB9d4B6goSFfod8iYqGioGMh46NkYSTkpWAgnSccXadnJl/PYOHQaWAQQWoe6qrhK6MBHmujkEArpCDBVkEBQWLu7w9v3mTv77AxpG/ysusmp+gdQkAOw==");
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  height: 14px;
+  width: 14px;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.checkbox:hover {
+  background-position: 0 -28px;
+}
+
+.checkbox:checked {
+  background-position: 0 -14px;
+}
+
+.content_title_expanded, .content_title_unexpanded {
+    background-color: #dfe6ec;
+    background-image: unset !important;
+    /* border-top: #dfe6ec solid 1px; */
+    border-top: none;
+    border-bottom: #dfe6ec solid 1px;
+    font-weight: bold;
+    color: #36638e;
+    font-size: 11px;
+    display: block;
+    pointer-events: none;
+    padding: 3px 10px;
+}
+
+.content_subtitle {
+    background-color: #F0F0F0;
+    padding: 0;
+    display: block;
+    font-size: 11px;
+    border-bottom: 1px solid #EEEEEE;
+    color: #666;
+    padding: 3px 8px;
+    border-top: #dfe6ec solid 1px;
+}
+
+.content {
+    padding: 8px;
+}
+
+.content-withouttop {
+    padding-top: 0px;
+}
+
+input[type="text"], input[type="password"], input[type~="text"], input[type~="password"], input[type="email"], input[type="phone"], input[type~="email"], input[type~="phone"], input[type="search"], select {
+    border: 1px solid #C3CBD4;
+    padding: 3px;
+    font-size: 11px;
+    font-family: tahoma, verdana, arial, sans-serif;
+    height: 26px;
+}
+
+.header_navigation #search_box select[name='section'], .header_navigation #search_box .search_box_button {
+    border: unset;
+}
+
+#search_box_fr input[type="search"] {
+    padding: 3px;
+    font-size: 11px;
+    font-family: tahoma, verdana, arial, sans-serif;
+    border-radius: 3px;
+    height: 22px;
+    margin-left: -630px;
+    margin-top: -14px;
+    width: 167px;
+    /* background: url(https://i.imgur.com/8KtCFDd.gif) no-repeat 3px 4px;
+    width: 169px;
+    position: absolute;
+    background-color: #fff;
+    padding-left: 23px;
+    width: 120px;
+    background-position-y: 5px;
+    background-position-x: 5px; */
+}
+
+.page_header.search_expanded #search_box_fr input[type="search"] {
+    margin-left: -3px !important;
+    margin-top: -3px !important;
+}
+
+h4 {
+    border-bottom: 1px solid #E8EBEE;
+    color: #45688e;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px 0px 3px;
+    font-family: verdana, arial, sans-serif;
+}
+
+.post-menu > a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: square;
+    color: #a2a2a2;
+}
+
+span {
+    padding: 0 0 2px;
+    color: black;
+    font-weight: normal;
+}
+
+.container_gray {
+    background: #fff;
+    width: 602px;
+    padding: 12px;
+    border-top: #fff solid 1px;
+    margin-left: -12px;
+    margin-bottom: -12px;
+}
+
+#auth .container_gray {
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
+
+/* ћќЌ“»–”ё ћќЌ“»–”ё ЅЋя“№ */
+
+.container_gray .content {
+    background: #fff;
+    padding: 5px;
+    border: #d9e0e7 solid 1px;
+    clear: both;
+}
+.tabs {
+    border-bottom: 1px solid #597da3;
+}
+#activetabs {
+
+    background: #597da3;
+    border-radius: 3px 3px 0px 0px;
+    
+
+}
+.tab {
+
+    display: inline-block;
+    padding: 6px 6px;
+    margin-left: 15px;
+    padding-right: 8px;
+    padding-left: 8px;
+
+}
+
+.tab:hover {
+    border-radius: 3px 3px 0px 0px;
+background: #e1e7ed;
+}
+#act_tab_a {
+
+    color: white;
+
+}
+.container_gray .content {
+
+    background: #fff;
+    padding: 4px;
+    border: #DEDEDE solid 1px;
+    clear: both;
+    margin-bottom: 12px;
+}
+
+.msg {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5pt;
+    padding: 8pt;
+    border: 1pt solid #667e96;
+    background-color: #e6f2f3;
+}
+
+#wrapHI > .msg {
+    margin-top: 15pt;
+}
+
+.msg.msg_succ {
+    border-color: #3b584f;
+    background-color: #ddf3d7;
+}
+
+.msg.msg_err {
+    border-color: #9a205e;
+    background-color: #f5e9ec;
+}
+
+.edit_link {
+    color: #c5c5c5;
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.settings_delete {
+    margin: -12px;
+    padding: 12px;
+    margin-top: -8px;
+    background: #fff;
+    text-align: center;
+}
+
+textarea {
+    font-family: unset;
+    border: 1px solid #C0CAD5;
+    font-size: 9pt;
+    min-height: 42px;
+}
+
+#faqhead {
+    background: #eaeef2;
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #E7EAED;
+    border-bottom: 0px;
+}
+
+#faqcontent {
+    background: #fafafa;
+    margin: 0px 5px 10px 5px;
+    padding: 5px 5px 5px 10px;
+    border: 1px solid #E7EAED;
+}
+
+.toTop {
+    background-color: #E1E7ED;
+    color: #45688E;
+}
+
+body.scrolled .toTop:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+.psa-poster {
+    max-width: 85%!important;
+    margin-top: 5px!important;
+    border-width: 1px;
+    padding: 7px;
+    background: #dfe6ec;
+    margin-left: 4px;
+    margin-bottom: 6px;
+}
+
+input[type=checkbox]:checked {
+  background-image: url("/themepack/vk2012/0.0.1.0/resource/5.png");
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  height: 14px;
+  width: 15px;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+}
+input[type=checkbox]:hover {
+  background-image: url("/themepack/vk2012/0.0.1.0/resource/6.png");
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  height: 14px;
+  width: 15px;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+}
+input[type=checkbox]:checked:hover {
+  background-image: url("/themepack/vk2012/0.0.1.0/resource/7.png");
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  height: 14px;
+  width: 15px;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+}
+input[type=checkbox] {
+  background-image: url("/themepack/vk2012/0.0.1.0/resource/8.png");
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  height: 14px;
+  width: 15px;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+
+
+
+hr {
+border-color: #d9e0e7; 
+    border-top: none;
+}
+
+.page_body {
+    margin-top: -9px;
+}

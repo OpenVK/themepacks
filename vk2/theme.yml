@@ -1,0 +1,11 @@
+id: vk2
+version: "0.0.1.0"
+openvk_version: 0
+enabled: 1
+metadata:
+    name:
+        _: "V Kontakte 2"
+        en: "V Kontakte 2"
+        ru: "В Контакте 2"
+    author: "Veselcraft"
+    description: "Тема в Контакте 2 :)"
