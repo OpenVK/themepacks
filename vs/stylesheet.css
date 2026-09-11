@@ -1,3 +1,7 @@
+:root {
+    --brand: red;
+}
+
 input, textarea, select, button, a {outline:none;}
 
 

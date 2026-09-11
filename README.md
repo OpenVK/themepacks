@@ -45,3 +45,7 @@ vk2007:
 - stylesheet.css
 - theme.yml
 ```
+
+## How do I add theme into this repo?
+
+You need to create directory with name that same as a themepack id. Then you need to add this dir into `.gitignore` and to `THEMES.md`

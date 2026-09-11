@@ -1,38 +1,41 @@
+:root {
+    --brand: black;
+}
+
 span {
-    padding: 0 0 2px;
     color: gray;
-    font-weight: bold;
+}
+
+ul {
+    list-style-type: square;
+    color: #a2a2a2;
 }
 
 .nobold {
-
     font-weight: normal;
     color: gray;
-
 }
 
 a {
-    text-decoration: none;
     color: #000;
-    cursor: pointer;
 }
 
-/* header crap */
+textarea {
+    font-family: unset;
+    border: 1px solid #d5d5d5;
+    font-size: 9pt;
+    min-height: 42px;
+}
 
 .page_header {
-    position: relative;
-    width: 791px;
-    height: 45px;
+    margin-bottom: 2px;
     background-position: 0;
     background: url(/themepack/vtlenu/0.0.1.0/resource/1.png) no-repeat;
     /* https://i.imgur.com/NUWhKyn.png */
 }
 
 #page_act {
-    border-bottom: 1px solid #d5dde6;
     color:#2B587A;
-    width: 608px;
-    margin-left: -10px;
 }
 
 .home_button {
@@ -45,7 +48,6 @@ a {
     text-indent: -999px;
     height: 42px;
 }
-
 
 .home_button:active {
     background-image: url(/themepack/vtlenu/0.0.1.0/resource/2.png);
@@ -106,22 +108,6 @@ a {
     color: #fff;
 }*/
 
-/* Sidebar crap */
-
-/* .sidebar {
-
-    width: 135px; 118
-    margin: 4px 0 0 4px;
-    float: left;
-    margin-top: 1px;
-
-}
-
-.navigation {
-    padding: 0;
-} */
-/* ���� */
-
 .navigation .link {
     color: #000;
     font-size: 11px;
@@ -149,19 +135,14 @@ a {
     border-top: 1px solid #CCCCCC;
 }
 
-/* page crap */
-
 .wrap1 {
-
     border: 1px solid #f2f2f2;
     border-top: 0px;
 }
 
 .wrap2 {
-
     border-right: 1px solid #F6F8FA;
     border-top: 0px;
-
 }
 
 .page_yellowheader {
@@ -174,7 +155,6 @@ a {
     border-left: solid 1px #d9d9d9;
     color: #000;
     border-bottom: #d9d9d9;
-
 }
 
 /* .page_yellowheader {
@@ -190,21 +170,17 @@ a {
 } */
 
 #wrapHI {
-
     border-right: solid 1px #dee3e7;
     border-left: solid 1px #dee3e7;
-
 }
-#wrapH {
 
+#wrapH {
     border-right: solid 1px #f7f3f7;
     border-left: solid 1px #f7f3f7;
-
 }
 
 .profileName h2 {
     color: #000;
-    font-size: 13px;
 }
 
 .page_yellowheader span {
@@ -233,15 +209,11 @@ a {
 }
 
 img.name-checkmark {
-    margin-bottom: -1px;
     content: url(/themepack/vtlenu/0.0.1.0/resource/check.png);
 }
 
 .post-author img.name-checkmark {
     content: url(/themepack/vtlenu/0.0.1.0/resource/check2.png);
-    margin-left: 0px;
-    margin-bottom: 0.3px;
-    width: 10px;
     filter: grayscale(100%);
 }
 
@@ -253,11 +225,6 @@ img.name-checkmark {
 #profile_link:hover, .profile_link:hover {
     background: #e3e3e3;
     border-bottom: 1px solid #fff;
-}
-
-table {
-    font-size: 11px;
-    text-align: left; 
 }
 
 .information {
@@ -280,25 +247,19 @@ table {
 
 .page_footer .link {
     color: #444;
+    border-top: none;
     text-decoration: none;
 }
 
 .page_footer .link:hover {
     background-color: #e3e3e3;
-    border-top: none;
     border-radius: 2px;
 }
 
-.content_divider {
-    margin-bottom: 6px;
-}
-
 .page_info {
-
     margin-top: 3px;
     margin-left: 5px;
     margin-bottom: 0px;
-
 }
 
 .page_status {
@@ -306,8 +267,6 @@ table {
     font-size: 11px;
     padding: 3px 1px 3px;
     color: #000;
-    width: 380px;
-    max-height: 39px;
     height: auto !important;
 }
 /* 
@@ -323,15 +282,11 @@ table {
     border-radius: 2px;
     border: #000;
     font-size: 11px;
-    outline: none;
-    white-space: nowrap;
     background: #000;
     background-position: 0px -16px;
     color: #fff;
     text-shadow: 0 1px 0 #000;
     cursor: pointer;
-    text-decoration: none;
-
 }
 
 .checkbox {
@@ -355,7 +310,7 @@ table {
   background-position: 0 -14px;
 }
 
-.left_small_block .avatar_block img {
+.left_small_block .avatar_block {
     filter: grayscale(50%);
 }
 
@@ -382,61 +337,39 @@ table {
     border-top: #ececec solid 1px;
 }
 
-.content {
-    padding: 8px;
-}
-
-.content-withouttop {
-    padding-top: 0px;
-}
-
 input[type="text"], input[type="password"], input[type~="text"], input[type~="password"], input[type="email"], input[type="phone"], input[type~="email"], input[type~="phone"], input[type="search"], select {
     border: 1px solid #aeaeae;
     font-size: 11px;
     font-family: tahoma, verdana, arial, sans-serif;
 }
 
-#search_box_fr input[type="search"] {
-    border: 1px solid #1a1a1a;
-    padding: 3px;
-    font-size: 11px;
-    font-family: tahoma, verdana, arial, sans-serif;
-    border-radius: 3px;
-    height: 22px;
-    margin-left: -630px;
-    margin-top: 0px;
-    /* background: url(https://i.imgur.com/8KtCFDd.gif) no-repeat 3px 4px;
+/*#search_box_fr input[type="search"] {
+     background: url(https://i.imgur.com/8KtCFDd.gif) no-repeat 3px 4px;
     width: 169px;
     position: absolute;
     background-color: #fff;
     padding-left: 23px;
     width: 120px;
     background-position-y: 5px;
-    background-position-x: 5px; */
-}
-
-.page_header.search_expanded #search_box_fr input[type="search"] {
-    margin-left: -3px !important;
-}
+    background-position-x: 5px; 
+    margin-left: -630px;
+    margin-top: 0px;
+    border: 1px solid #1a1a1a;
+    padding: 3px;
+    font-size: 11px;
+    font-family: tahoma, verdana, arial, sans-serif;
+    border-radius: 3px;
+    height: 22px;
+}*/
 
 /* post */
 
 .post-author .date {
-    font-size: 9px;
     color: black;
 }
 
 .post-content {
     border-bottom: #F1F1F1 solid 1px;
-    font-size: 9px;
-}
-
-.post-content .text {
-    padding: 4px;
-    font-size: 11px;
-    word-break: break-word;
-    word-wrap: break-word;
-    hyphens: manual;
 }
 
 .post img {
@@ -444,7 +377,6 @@ input[type="text"], input[type="password"], input[type~="text"], input[type~="pa
 }
 
 .post-menu {
-    font-size: 9px;
     color: #bcbcbc;
 }
 
@@ -460,28 +392,11 @@ input[type="text"], input[type="password"], input[type~="text"], input[type~="pa
 .post-menu > a {
     padding-left:2px;
     padding-right: 2px;
-
-
-    
 }
 */
+
 .post-menu > a:hover {
     text-decoration: underline;
-}
-
-ul {
-    list-style-type: square;
-    color: #a2a2a2;
-}
-
-span {
-    padding: 0 0 2px;
-    color: black;
-    font-weight: normal;
-}
-
-#logininput {
-    border: 1px solid #C0CAD5;
 }
 
 .ovk-avView--el .ava {
@@ -507,10 +422,6 @@ span {
     border: #DEDEDE solid 1px;
 }
 
-#wrapHI > .msg {
-    margin-top: 15pt;
-}
-
 .msg.msg_succ {
     border-color: #32423d;
     background-color: #ebf7e8;
@@ -523,24 +434,12 @@ span {
 
 .edit_link {
     color: #c5c5c5;
-    font-family: verdana, arial, sans-serif;
     font-size: 11px;
     font-weight: bold;
 }
 
 .settings_delete {
-    margin: -12px;
-    padding: 12px;
-    margin-top: -8px;
     background: #fff;
-    text-align: center;
-}
-
-textarea {
-    font-family: unset;
-    border: 1px solid #d5d5d5;
-    font-size: 9pt;
-    min-height: 42px;
 }
 
 #faqhead {
@@ -570,28 +469,17 @@ textarea {
 }
 
 .profile-hints a img {
-    vertical-align: bottom;
     content: url(/themepack/vtlenu/0.0.1.0/resource/8.png);
 }
 
 .completeness-gauge {
     position: relative;
-    width: 95%;
-    height: 20px;
     background-color: #e8e8e8;
 }
 
 .completeness-gauge > div {
     height: 100%;
     background-color: #c4c4c4;
-}
-
-.completeness-gauge > span {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
 }
 
 .psa-poster {
@@ -705,4 +593,21 @@ input[type=checkbox] {
 hr {
     border-color: #d9e0e7;
     border-top: none;
+}
+
+body.dimmed>.dimmer {
+    background-color: #313131d1;
+}
+
+.page_footer .link.link_lang {
+    filter: grayscale(50%);
+}
+
+.messages--peers-tabs .messages--peers-tab.selected {
+    background: black;
+    border: 1px solid black;
+}
+
+.searchList #used, .verticalGrayTabs #used {
+    background: black;
 }
