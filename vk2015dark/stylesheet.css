@@ -8,24 +8,10 @@ body {
 }
 .navigation .link {
     display: block;
-    padding: 3px 3px 4px 6px;
-    text-decoration: none;
-    border-top: none;
     color: #a4a4a4;
-    border-bottom: 0;
-    border-left: 0;
-    border-right: 0;
-    font-size: 11px;
-    text-align: left;
-    cursor: pointer;
-    background: unset;
-    margin-bottom: 1px;
-    border-radius: 2px;
 }
 .navigation .link:hover {
     display: block;
-    padding: 3px 3px 4px 6px;
-    text-decoration: none;
     border-top: none;
     color: #a4a4a4;
     border-bottom: 0;
@@ -43,12 +29,8 @@ body {
     color: #a4a4a4;
     cursor: pointer;
 }
-
 .home_button {
     position: absolute;
-    width: 145px;
-    text-indent: -999px;
-    height: 42px;
     background: url(/themepack/vk2015/0.0.1.0/resource/11.png) no-repeat;
      /* на нг https://i.imgur.com/Pxcj8TG.png */
     /* стандарт /themepack/vk2015dark/0.0.1.0/resource/11.png) */
@@ -157,22 +139,16 @@ a {
     border-bottom: solid 1px #222226;
     border-left: solid 1px #222226;
     border-right: solid 1px #222226;
-    padding: 12px;
 }
 .container_gray {
     background: #22222600;
-    width: 602px;
-    padding: 12px;
     border-top: #22222600 solid 1px;
-    margin-left: -12px;
-    margin-bottom: -12px;
 }
 .post-author {
     background-color: #22222600;
     border-top: #353535 solid 1px;
     border-bottom: #22222600 solid 1px;
     font-size: 11px;
-    padding: 3px 5px 3px;
 }
 .post-author .date {
     font-size: 9px;
@@ -191,7 +167,6 @@ a {
 }
 .container_gray .content {
     background: #26262600;
-    padding: 4px;
     border: #4f4f4f solid 1px;
     clear: both;
     margin-bottom: 12px;
@@ -231,50 +206,6 @@ input[class="button"]:active {
     border-top: none;
     color: #a4a4a4;
 }
-.crp-list {
-    margin: 10px -6px 0 -11px;
-    display: flex;
-    flex-direction: column;
-    border-top: 1px solid #4f4f4f;
-    max-height: 70%;
-    overflow-y: auto;
-}
-.crp-entry {
-    display: flex;
-    padding: 8px;
-    border-bottom: 1px solid #4f4f4f;
-    cursor: pointer;
-}
-.crp-entry:hover {
-    display: flex;
-    padding: 8px;
-    border-bottom: 1px solid #4f4f4f;
-    cursor: pointer;
-    background: #333;
-}
-.crp-entry--message---text,
-.messenger-app--messages---message .time {
-    color: #a2a2a2;
-}
-.messenger-app--messages---message ._content span {
-    color: #d9d9d9;
-}
-span {
-    padding: 0 0 2px;
-    color: #dbdbdb;
-    font-weight: normal;
-}
-.messenger-app--input {
-    background-color: #313131;
-    height: 120px;
-    border-top: 1px solid #575757;
-}
-.messenger-app--input---messagebox .button:hover {
-    background: #515151;
-}
-.messenger-app--input---messagebox .button:active {
-    background: #424242;
-}
 .left_small_block {
     float: left;
     width: 200px;
@@ -297,21 +228,6 @@ span {
 }
 .page_status {
     color: #919191;
-}
-.e {
-    background-color: #1a1a1a;
-    width: 300px;
-    font-weight: bold;
-}
-.v {
-    background-color: #1a1a1a;
-}
-.h {
-    background-color: #313131;
-    color: #fff;
-}
-.h h1 {
-    color: #fff;
 }
 table {
     box-shadow: 1px 2px 3px #ccc0;
@@ -357,13 +273,9 @@ img.name-checkmark {
     content: url(https://i.imgur.com/GYkMm4a.png);
 }
 #wallAttachmentMenu {
-    position: absolute;
-    margin-top: 20px;
     border: 1px solid darkgrey;
     background-color: #333336;
-    z-index: 32;
 }
-
 #wallAttachmentMenu > a {
     display: block;
     padding: 2px 6px;
