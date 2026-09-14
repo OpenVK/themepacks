@@ -232,20 +232,6 @@ ul {
     border: #fff;
 }
 
-.crp-list {
-    border-top: 1px solid #fff;
-    width: 629px;
-}
-
-.crp-entry:first-of-type {
-    border-color: #e5e5e5;
-}
-
-.crp-entry {
-    width: 593px;
-    border-color: #e5e5e5;
-}
-
 #faqhead {
     border: 1px solid #fbf3c3;
 }

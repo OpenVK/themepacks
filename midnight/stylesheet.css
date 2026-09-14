@@ -2,6 +2,14 @@
     scrollbar-color: #3f365b #1d192b;
 }
 
+:root {
+    --bg-page: #0e0b1a;
+    --tabbish: #1e1a2b;
+    --bg-slightly: #130f24;
+    --bg-slightly-2: #17132ba3;
+    --common-2: #1e1a2b;
+}
+
 html {
     color-scheme: dark !important;
 }
