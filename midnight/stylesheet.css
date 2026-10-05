@@ -8,9 +8,6 @@
     --bg-slightly: #130f24;
     --bg-slightly-2: #17132ba3;
     --common-2: #1e1a2b;
-    --header-branded: url("/themepack/midnight/0.0.4.1/resource/header.png");
-    --mobile-header: linear-gradient(#30285b, #252036);
-    --mobile-header-active: linear-gradient(#252036, #30285b);
 }
 
 html {
@@ -254,12 +251,13 @@ a,
 .post-share-button:hover,
 .post-like-button:hover,
 #search_box_button:active,
+.chat-member-item:hover,
+.friends-list-item:hover,
 .mb_tab:hover {
     background-color: #272138 !important;
 }
 
 .header_navigation .link a,
-.header_navigation .link a span,
 .searchOptionName {
     color: #bcc3d0;
 }
@@ -323,6 +321,9 @@ tr.e,
     background-color: #231e33 !important;
 }
 
+
+.peer-info,
+#conversations-top-buttons,
 .content_subtitle,
 .postFeedWrapper,
 .ovk-diag-head,
@@ -388,7 +389,7 @@ tr.h {
 }
 
 .page_header {
-    background-image: url("/themepack/midnight/0.0.4.1/resource/header.png");
+    background-image: url("/themepack/midnight/0.0.4.1/resource/header.png") !important;
 }
 
 .page_custom_header {
@@ -711,18 +712,197 @@ ul {
     background: #111322;
 }
 
-#conversations-top-buttons {
-    background: #1e1a2b;
+.content-editable.expanded-textarea, #write.expanded-textarea .content-editable {
+    border-color: #2c2640 !important;
+    background-color: #181826;
+    color: #ffffff;
 }
 
-.messages--peers-tabs,
-.messenger-pinned-bar {
-    background: #2d2651;
-    border-color: #4b427a;
+.small-textarea {
+    border-color: #2c2640 !important;
+    background-color: #181826;
 }
 
-.messenger-app--input---messagebox textarea, .messenger-app--input---messagebox .content-editable {
-    border: 1px solid #595959;
-    background: #2d2651;
-    color: white;
+.counter.shown, .emoji-cat-btn.active {
+    background: #2c2640;
 }
+
+.emoji-picker-wrap, .emoji-picker-footer {
+    background: #181826;
+}
+
+.emoji-cat-btn:hover {
+    background: #2c2640;
+}
+
+.emoji-main-tab.active {
+    background: #2c2640;
+}
+
+.crp-bottom {
+    background: #1e1a2b !important;
+}
+
+.messages--peers-tabs {
+    background: #1d192b;
+    border-bottom: 1px solid #3f365b;
+    box-shadow: 1px 1px 2px 0px #3f365b;
+}
+
+.messenger-app--input {
+    background: linear-gradient(180deg, #3f365b, #1d192b);
+}
+
+.im_floating_date_wrap b {
+    background: #383052;
+    color: #e3e3e3;
+    border: 1px solid #3f365b;
+}
+
+.im_floating_date_wrap b:hover {
+    color: var(--color-text, #FFF);
+    border-color: #2c2640;
+}
+
+.messenger-app-end .messenger-mountain {
+    background-color: #1d192b;
+    border-top: 1px solid #3f365b;
+    color: #dfdfdf;
+}
+
+.messenger-app-end .messenger-mountain:hover {
+    background: #2c2640;
+}
+
+.search_box_button {
+    box-shadow: 0px 2px 0px 0px #463f60 inset;
+}
+
+.search_box_button {
+    background: #383052;
+    border: 1px solid #383052;
+    border-top-color: #383052;
+    border-bottom-color: #383052;
+}
+
+.search_box_button:hover {
+    background: #383052 linear-gradient(180deg, #383052 0%, #1d192b 100%);
+}
+
+.messages--peers-tabs .messages--peers-tab.selected {
+    background: #463f60 !important;
+    border: 1px solid #2c2640;
+}
+
+.reply-text {
+    color: var(--color-text, #555555) !important;
+}
+
+.group-title {
+    color: #ffffff !important;
+}
+
+.fc_friends_window .fc_search_wrap {
+    background: #1d192b;
+    border: 1px solid #1d192b;
+}
+
+.fc_friends_list {
+    background: #0e0b1a;
+    border: 1px solid #1c202f;
+}
+
+.fc_friends_row {
+    border-bottom: 1px solid #1c202f;
+}
+
+.fc_friend_row:hover {
+    background: #3f365b;
+}
+
+.fc_toggle_offline_btn, .fc_load_more  {
+    color: #8b9ab5;
+    border: 1px solid #1c202f;
+    background: #3f365b;
+}
+
+.fc_toggle_offline_btn:hover {
+    background: #eef2f7;
+}
+
+.fc_toggle_offline_btn:hover{
+    background: #0e0b1a;
+}
+
+.fc_load_more:hover {
+    background: #0e0b1a;
+}
+
+
+
+.fc_messages_list {
+    background: #0e0b1a;
+    border: 1px solid #1c202f;
+}
+
+.fc_msg_row .fc_msg_text {
+    color: #c6d2e8;
+}
+
+.fc_msg_row {
+    border-bottom: 1px solid #1c202f;
+}
+
+
+.fc_input_bar, .fc_divider_row {
+    background: #1d192b;
+    border: 1px solid #1d192b;
+}
+
+.fc_friend_row {
+    border: 1px solid #1d192b;
+}
+
+.stickers_modal_title, .stickers_modal_desc {
+    color: #ffffff !important;
+}
+
+.peer-window {
+    background-color: #0e0b1a;
+}
+
+.peer-window .peer-side .peer-info {
+    border: 1px solid #2c2640;
+}
+.peer-window .peer-members-section {
+    border-top: 1px solid #1c202f;
+}
+
+.chat-member-item {
+    background-color: #120e1f !important;
+    border: 1px solid #2c2640 !important;
+}
+
+.peer-window .chat-members-list {
+    border-top: 1px solid #2c2640 !important;
+    border-bottom: 1px solid #2c2640 !important;
+}
+
+.im-search-toolbar {
+    background-color: #1e1a2b !important;
+    border-bottom: 1px solid #2c2640 !important;
+}
+
+.im-search-empty, .im-search-results {
+    background-color: #231e33 !important;
+}
+
+.friends-list-side {
+    background-color: #231e33 !important;
+    border-left: 1px solid #2c2640 !important;
+}
+
+.friends-add-tip {
+    color: #fff;
+}
+
