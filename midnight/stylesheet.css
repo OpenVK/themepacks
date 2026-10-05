@@ -854,7 +854,7 @@ ul {
 }
 
 
-.fc_input_bar {
+.fc_input_bar, .fc_divider_row {
     background: #1d192b;
     border: 1px solid #1d192b;
 }
