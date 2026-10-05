@@ -6,6 +6,11 @@
 }
 */
 
+:root {
+    --nobold: #45688E;
+    --expanded-header-fallback: #3b5998;
+}
+
 body {
     background-color: rgb(255, 255, 255);
         margin: 0px;
@@ -27,8 +32,6 @@ a {
 
 .page_header {
     position: relative;
-    width: 791px;
-    
     height: 78px;
     background-repeat: no-repeat;
     background-position: 0;
@@ -76,13 +79,15 @@ a {
     font-size: 12px;
 }
 
-.header_navigation .link a {
+.header_navigation .link a,
+.header_navigation .link a span {
   color: #dfe3ff;
   text-decoration: none;
   font-weight: normal;
 }
 
-.header_navigation .link a:hover {
+.header_navigation .link a:hover,
+.header_navigation .link a span:hover {
   text-decoration: underline;
   color: #5a9cff;
 }
@@ -344,4 +349,12 @@ h4 {
 
 .page_header select[name='section'] {
     color: gray;
+}
+
+.header-search-box {
+    margin-top: 30px;
+}
+
+.messages--peers-tabs .messages--peers-tab.selected {
+    background: #3b599a;
 }

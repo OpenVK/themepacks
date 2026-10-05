@@ -349,26 +349,23 @@ nobold {
     border-radius: 3px;
 }
 
-.crp-list {
-    margin: 8px -6px -13px -10px;
-    display: flex;
-    flex-direction: column;
-    border-top: 1px solid #d6d6d6;
-    max-height: 70%;
-    overflow-y: auto;
-    width: 633px;
-}
-
 .crp-entry {
-    background: #fffeff;
+    background: #fbfceb;
 }
 
-.crp-entry:hover {
-    background: rgb(255, 254, 254);
+#conversations-top-buttons {
+    margin: 0px 0px 0px 2px;
 }
 
-.crp-entry:first-of-type {
-    border-top: 1px solid #cdcebe;
+.messages--peers-tabs .messages--peers-tab.selected {
+    background: #7b9331;
+    border: #1c8f1b 1px ridge;
+}
+
+.messenger-app--messages---message .ava,
+.messenger-app--input>.ava, 
+.messenger-app--input>table.chat_table_avatar.ava {
+    border-radius: 0px;
 }
 
 input[type="radio"] {

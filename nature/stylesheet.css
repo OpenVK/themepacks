@@ -1,3 +1,12 @@
+:root {
+    --nobold: #21a030;
+    --expanded-header-fallback: #569350;
+}
+
+.mb_tab#active {
+    background: #569350;
+}
+
 body {
     background-image: url(/themepack/nature/0.0.1.0/resource/background.jpg);
     background-repeat: no-repeat;
@@ -65,23 +74,25 @@ h4 {
     padding: 11px 7px 0px 7px;
     background: none;
 }
-.header_navigation .link a {
+.header_navigation .link a,
+.header_navigation .link a span {
   color: #D7D7D7;
   font-weight: lighter;
 }
-.header_navigation .link a:hover {
+.header_navigation .link a:hover,
+.header_navigation .link a span:hover {
   text-decoration: none;
   color: #fff;
 }
 .header_navigation .link:active {
     background: #42723e;
 }
-.header_navigation .link a:active {
+.header_navigation .link a:active,
+.header_navigation .link a:active span {
     text-decoration: underline;
     color: #fff;
 }
 .page_body {
-    width: 632px;
     float: right;
     margin-right: 15px;
     margin-top: 25px;
@@ -197,8 +208,16 @@ h4 {
 
 .tabs {
     border-bottom: 1px solid #559250;
-    margin-left: -10px;
-    margin-right: -6px;
+}
+
+.messages--actions .message-tab,
+.messages--peers-tabs .messages--peers-tab.selected {
+    background: #559250;
+}
+
+#im_container.at_page {
+    height: calc(100vh - 90px);
+    max-height: calc(100vh - 52px);
 }
 
 #xhead {

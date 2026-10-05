@@ -3,6 +3,7 @@
     background: #f7f7f7;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .mb_tab {

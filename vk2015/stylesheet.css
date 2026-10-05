@@ -36,9 +36,6 @@ a {
     text-align: center;
     line-height: 38px;
     padding-right: 8px;
-    text-transform: lowercase;
-    float: right;
-    max-height: 45px;
 }
 
 .header_navigation .link {
@@ -49,13 +46,15 @@ a {
     margin-top: -13px;
 }
 
-.header_navigation .link a {
+.header_navigation .link a,
+.header_navigation .link a span {
   color: #E8EFF7;
   text-decoration: none;
   font-weight: bold;
 }
 
-.header_navigation .link a:hover {
+.header_navigation .link a:hover,
+.header_navigation .link a:hover span {
     text-decoration: underline;
     color: #fff;
 }
@@ -140,6 +139,7 @@ a {
     font-weight: bold;
     background: url(/themepack/vk2015/0.0.1.0/resource/3.png) repeat-x;
     background-color: #e9edf1;
+    border-top: solid 1px #e9edf1;
     border-right: solid 1px #e9edf1;
     border-left: solid 1px #e9edf1;
     border-bottom: solid 1px #e9edf1;
@@ -170,16 +170,12 @@ a {
 
 .page_content {
     display: inline-block;
-    width: 610px;
 }
 
 .page_wrap {
     border-bottom: solid 1px #c3cad2;
     border-left: solid 1px #d9e0e7;
     border-right: solid 1px #d9e0e7;
-    padding: 12px;
-    width: 604px;
-    margin-left: 1px;
 }
 
 .content-main-tile {
@@ -188,10 +184,6 @@ a {
     padding: 7pt;
     border-top: 1px solid #ebf0f4;
     background-color: #fbfbfb;
-}
-
-.name-checkmark {
-    margin-left: 2pt;
 }
 
 img.name-checkmark {
@@ -207,30 +199,14 @@ img.name-checkmark {
 }
 
 #profile_link, .profile_link {
-    display: block;
-    box-sizing: border-box;
-    padding: 3px;
     background: transparent;
     border: none;
-    border-bottom: 1px solid #fff;
-    font-size: 11px;
     color: #2b587a;
     width: 200px;
-    text-align: left;
-    cursor: pointer;
-}
-#profile_links {
-
-    margin: 10px 0;
-
 }
 
 #profile_link:hover, .profile_link:hover {
-
     background: #e9edf1;
-    border-bottom: 1px solid #e9edf1;
-    
-
 }
 
 .information {
@@ -242,14 +218,6 @@ img.name-checkmark {
     padding: 9px;
     background-color: #ffc3c3;
 }
-
-/* kun vi tre agrable pensi pri morto 
-
-кстати это из песни дельфина вз€то 
-вдруг кто не знал
-€ просто влюблЄн, извините за 
-пиздобл€ские комментарии в CSS коде 
-<3                                      */
 
 .page_footer .link {
     padding: 3px 7px;
@@ -269,42 +237,20 @@ img.name-checkmark {
 }
 
 .page_info {
-
     margin-top: 3px;
     margin-left: 5px;
     margin-bottom: 2px;
 
 }
 
-/* 
-
-у теб€ спид
-и значит мы умрЄм
-
-*/
-
-/* кнопки */
-
 .button {
-    border-radius: 2px;
     border: #597da3;
-    font-size: 11px;
     outline: none;
     white-space: nowrap;
     background: #597da3;
-    background-position: 0px -16px;
     color: #fff;
-    padding: 4px 8px 4px;
     text-shadow: 0 1px 0 #597da3;
     cursor: pointer;
-    text-decoration: none;
-
-}
-
-input[class=button] {
-    padding: 5px 7px 4px;
-        padding-top: 7px;
-    padding-bottom: 7px;
 }
 
 input[class=button]:hover {
@@ -373,10 +319,6 @@ input[class=button]:active {
 
 input[type="text"], input[type="password"], input[type~="text"], input[type~="password"], input[type="email"], input[type="phone"], input[type~="email"], input[type~="phone"], input[type="search"], select {
     border: 1px solid #C3CBD4;
-    padding: 3px;
-    font-size: 11px;
-    font-family: tahoma, verdana, arial, sans-serif;
-    height: 26px;
 }
 
 .header_navigation #search_box {
@@ -477,7 +419,6 @@ span {
     background: #fff;
     padding: 5px;
     border: #d9e0e7 solid 1px;
-    clear: both;
 }
 .tabs {
     border-bottom: 1px solid #597da3;
@@ -486,17 +427,6 @@ span {
     background: #597da3;
     border-radius: 3px 3px 0px 0px;
 }
-.tab {
-    display: inline-block;
-    padding: 6px 6px;
-    margin-left: 15px;
-    padding-right: 8px;
-    padding-left: 8px;
-
-}
-
-
-
 .tab:hover {
     border-radius: 3px 3px 0px 0px;
     background: #e1e7ed;
@@ -514,9 +444,7 @@ span {
     border: #DEDEDE solid 1px;
     padding: 6px;
     margin-top:6px;
-
 }
-
 textarea {
     font-family: unset;
     border: 1px solid #C0CAD5;
@@ -526,107 +454,32 @@ textarea {
 
 #faqhead {
     background: #eaeef2;
-    margin: 0px 5px 0px 5px;
-    padding: 5px;
-    font-weight: bold;
     border: 1px solid #E7EAED;
     border-bottom: 0px;
 }
 
 #faqcontent {
     background: #fafafa;
-    margin: 0px 5px 10px 5px;
-    padding: 5px 5px 5px 10px;
     border: 1px solid #E7EAED;
 }
 
 .profile-hints a img {
-    vertical-align: bottom;
     content: url(/themepack/vk2015/0.0.1.0/resource/9.png);
 }
 
 .completeness-gauge {
     position: relative;
-    width: 95%;
-    height: 20px;
     background-color: #dee2ea;
 }
 
-.completeness-gauge > div {
-    height: 100%;
-    background-color: #c2cad9;
-}
-
-.completeness-gauge > span {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-
 .psa-poster {
-    max-width: 85%!important;
-    margin-top: 5px!important;
-    border-width: 1px;
-    padding: 7px;
     background: #dfe6ec;
-    margin-left: 4px;
-    margin-bottom: 6px;
 }
 
 .right_big_block > div:nth-of-type(2) > div:nth-of-type(2) {
     padding: 3px 5px!important;
 }
 
-/* input[type=checkbox]:checked {
-  background-image: url("https://i.imgur.com/OltCRHG.png");
-  background-color: transparent;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  height: 15px;
-  width: 15px;
-  outline: none;
-  cursor: pointer;
-  vertical-align: middle;
-}
-input[type=checkbox]:hover {
-  background-image: url("https://i.imgur.com/M3Jl9h6.png");
-  background-color: transparent;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  height: 15px;
-  width: 15px;
-  outline: none;
-  cursor: pointer;
-  vertical-align: middle;
-}
-input[type=checkbox]:checked:hover {
-  background-image: url("https://i.imgur.com/96dsbpC.png");
-  background-color: transparent;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  height: 15px;
-  width: 15px;
-  outline: none;
-  cursor: pointer;
-  vertical-align: middle;
-}
-input[type=checkbox] {
-  background-image: url("https://i.imgur.com/uGhAYMJ.png");
-  background-color: transparent;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  height: 15px;
-  width: 15px;
-  outline: none;
-  cursor: pointer;
-  vertical-align: middle;
-} */
 input[type=checkbox]:checked {
   background-image: url("/themepack/vk2015/0.0.1.0/resource/5.png");
   background-color: transparent;
@@ -675,22 +528,7 @@ input[type=checkbox] {
   vertical-align: middle;
 }
 
-
-
-
 hr {
     border-color: #d9e0e7; 
     border-top: none;
 }
-
-
-/* .ovk-video > div {
-    background: #828282;
-    color: #fff;
-    padding-bottom: 2px;
-    width: 170px;
-}
-.ovk-video > div > b > a {
-    color: #fff;
-    padding-left: 4px;
-} */

@@ -1,3 +1,8 @@
+:root {
+    --nobold: #45688E;
+    --expanded-header-fallback: #3c87e5;
+}
+
 .page_custom_header {
     position: relative;
     width: 788px;
@@ -9,7 +14,6 @@
 
 .page_header {
     position: relative;
-    width: 788px;
     height: 59px;
     background-repeat: no-repeat !important;
     background-position: 0;
@@ -35,7 +39,8 @@
     font-size: 16px;
 }
 
-.header_navigation .link a {
+.header_navigation .link a,
+.header_navigation .link a span {
     color: #dfe3ff;
     text-decoration: none;
     font-weight: normal

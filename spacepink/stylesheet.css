@@ -1,5 +1,9 @@
 input, textarea, select, button, a {outline:none;}
 
+:root {
+    --header-branded: url('/themepack/spacepink/0.0.1.0/resource/1.png');
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -29,11 +33,8 @@ a {
     cursor: pointer;
 }
 
-/* header crap */
-
 .page_header {
     position: relative;
-    width: 791px;
     height: 45px;
     background-repeat: no-repeat;
     background-position: 0;
