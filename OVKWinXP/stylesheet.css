@@ -10,6 +10,11 @@
 @import url("/themepack/OVKWinXP/0.0.1.0/resource/styles/group.css");
 @import url("/themepack/OVKWinXP/0.0.1.0/resource/styles/feed.css");
 
+:root {
+    --mobile-header: linear-gradient(#cbedc6, #4d9e43);
+    --mobile-header-active: linear-gradient(#4d9e43, #cbedc6);
+}
+
 #standaloneCommentBox {
     background: none;
     border: none;
@@ -304,7 +309,6 @@ nobold {
 #auth .container_gray {
     margin-left: -9px;
     margin-bottom: -9px;
-    width: 607px;
 }
 
 /*.content_title_expanded,
@@ -413,7 +417,6 @@ input[type="radio"] {
 }
 
 .ovk-diag-head {
-    height: 25%;
     padding: 5px;
     background-color: #4c66a5;
     border-bottom: 1px solid #182138;
@@ -481,3 +484,4 @@ input[type="radio"] {
     padding: 0;
     padding-left: 5px;
 }
+

@@ -129,7 +129,6 @@ input[type="checkbox"] {
 .page_body {
     float: right;
     margin-right: 8px;
-    margin-top: -6px;
     font-size: 11px;
     text-align: left
 }
@@ -287,7 +286,6 @@ input[type="checkbox"] {
 }*/
 
 .ovk-diag-cont {
-    top: 45%;
     box-shadow: inset -1px -1px #00138c, inset 1px 1px #0831d9, inset -2px -2px #001ea0, inset 2px 2px #166aee, inset -3px -3px #003bda, inset 3px 3px #0855dd;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -306,7 +304,6 @@ input[type="checkbox"] {
     position: relative;
     left: 3px;
     padding: 10px;
-    height: 25%;
     background-color: #00000029;
     border-top: black 1px solid;
     text-align: right;
@@ -324,7 +321,7 @@ input[type="checkbox"] {
     border-top-right-radius: 7px;
     font-size: 13px;
     text-shadow: 1px 1px #0f1089;
-    height: 21px;
+    height: 30px;
 }
 
 .sugglist {

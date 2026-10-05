@@ -1,5 +1,8 @@
 @import "/themepack/vk2006/0.0.1.0/resource/vk2007style.css";
 
+:root {
+    --header-branded: url(/themepack/vk2006/0.0.1.0/resource/1.png);
+}
 
 .page_header {
     background: url(/themepack/vk2006/0.0.1.0/resource/1.png) no-repeat;
@@ -71,7 +74,7 @@ border-top: 1px solid
 
 
 .header_navigation {
-    margin-top: -2px;
+    margin-top: 4px;
     margin-right: 11px;
 }
 
@@ -80,10 +83,6 @@ border-top: 1px solid
 .navigation .edit-button {
     background-color: #fff !important;
     color: gray !important;
-    position: absolute;
-    right: 0;
-    height: 14px;
-    top: -1px;
 }
 
 

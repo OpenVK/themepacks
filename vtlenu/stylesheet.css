@@ -1,5 +1,7 @@
 :root {
     --brand: black;
+    --mobile-header: black;
+    --mobile-header-active: black;
 }
 
 span {

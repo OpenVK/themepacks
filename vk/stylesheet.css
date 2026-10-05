@@ -1,3 +1,7 @@
+:root {
+    --header-branded: url(/themepack/vk/0.0.1.0/resource/1.png);
+}
+
 body {
     background-color: #fff;
     text-align: left;

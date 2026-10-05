@@ -1,3 +1,7 @@
+:root {
+    --header-branded: url(/themepack/vk2007/0.0.1.0/resource/1.gif);
+}
+
 .page_header {
     background: url(/themepack/vk2007/0.0.1.0/resource/1.gif);
     /* background: url(https://i.imgur.com/4cbHvAE.png); */
@@ -7,7 +11,8 @@
     background: url(/themepack/vk2007/0.0.1.0/resource/2.png) no-repeat;
 }
 
-.header_navigation .link a {
+.header_navigation .link a,
+.header_navigation .link a span {
     color: #DAE1E8;
     text-decoration: none;
     font-weight: bold;

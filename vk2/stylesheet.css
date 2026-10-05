@@ -1,3 +1,7 @@
+:root {
+    --header-branded: url(/themepack/vk2/0.0.1.0/resource/1.gif);
+}
+
 .page_header {
     background: url(/themepack/vk2/0.0.1.0/resource/1.gif);
     /* background: url(https://i.imgur.com/4cbHvAE.png); */

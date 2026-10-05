@@ -1,3 +1,7 @@
+:root {
+    --header-branded: url(https://i.imgur.com/EcrJXro.png);
+}
+
 body {
     background-color: #fff;
     font-size: 11px;

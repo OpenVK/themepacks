@@ -1,6 +1,10 @@
 
 @import "/themepack/vk2012/0.0.1.0/resource/vkstyle.css";
 
+:root {
+    --header-branded: url(https://i.imgur.com/4CtLrWk.png);
+}
+
 .page_header {
     background: url(https://i.imgur.com/4CtLrWk.png) /* /themepack/vk2012/0.0.1.0/resource/9.png */ /* VK https://i.imgur.com/viNiBFh.png */ no-repeat;
 }

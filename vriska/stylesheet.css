@@ -3,6 +3,8 @@
 :root {
     --brand: #245298;
     --expanded-header-fallback: #627d8e;
+    --mobile-header: linear-gradient(#597da3, #1460aa);
+    --mobile-header-active: linear-gradient(#1460aa, #597da3);
 }
 
 .page_header {

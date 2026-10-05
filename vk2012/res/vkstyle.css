@@ -1,6 +1,5 @@
 .page_header {
     position: relative;
-    width: 791px;
     height: 45px;
     background-repeat: no-repeat;
     background-position: 0;
@@ -174,11 +173,10 @@ input[type="text"], input[type="password"], input[type~="text"], input[type~="pa
 #search_box_fr input[type="search"] {
     padding: 3px;
     font-size: 11px;
-    font-family: tahoma, verdana, arial, sans-serif;
     border-radius: 3px;
     height: 22px;
     margin-left: -630px;
-    margin-top: -14px;
+    margin-top: -1px;
     width: 167px;
     /* background: url(https://i.imgur.com/8KtCFDd.gif) no-repeat 3px 4px;
     width: 169px;

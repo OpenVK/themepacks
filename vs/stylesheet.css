@@ -1,5 +1,7 @@
 :root {
     --brand: red;
+    --mobile-header: #d20404;
+    --mobile-header-active: #e10101;
 }
 
 input, textarea, select, button, a {outline:none;}
@@ -30,11 +32,13 @@ a {
     background: url(/themepack/vs/0.0.1.0/resource/3.png) no-repeat;
 }
 
-.header_navigation .link a {
+.header_navigation .link a,
+.header_navigation .link a span {
     color: #eac6c6;
 }
 
-.header_navigation .link a:hover {
+.header_navigation .link a:hover,
+.header_navigation .link a:hover span {
     text-decoration: underline;
     color: #fff;
 }

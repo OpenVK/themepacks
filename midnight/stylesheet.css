@@ -8,6 +8,9 @@
     --bg-slightly: #130f24;
     --bg-slightly-2: #17132ba3;
     --common-2: #1e1a2b;
+    --header-branded: url("/themepack/midnight/0.0.4.1/resource/header.png");
+    --mobile-header: linear-gradient(#30285b, #252036);
+    --mobile-header-active: linear-gradient(#252036, #30285b);
 }
 
 html {
@@ -256,6 +259,7 @@ a,
 }
 
 .header_navigation .link a,
+.header_navigation .link a span,
 .searchOptionName {
     color: #bcc3d0;
 }
@@ -384,7 +388,7 @@ tr.h {
 }
 
 .page_header {
-    background-image: url("/themepack/midnight/0.0.4.1/resource/header.png") !important;
+    background-image: url("/themepack/midnight/0.0.4.1/resource/header.png");
 }
 
 .page_custom_header {
@@ -705,4 +709,20 @@ ul {
 
 .header_navigation #search_box #searchBoxFastTips a:hover, .header_navigation #search_box #searchBoxFastTips a:focus {
     background: #111322;
+}
+
+#conversations-top-buttons {
+    background: #1e1a2b;
+}
+
+.messages--peers-tabs,
+.messenger-pinned-bar {
+    background: #2d2651;
+    border-color: #4b427a;
+}
+
+.messenger-app--input---messagebox textarea, .messenger-app--input---messagebox .content-editable {
+    border: 1px solid #595959;
+    background: #2d2651;
+    color: white;
 }
